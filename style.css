@@ -1,0 +1,66 @@
+
+ @font-face{
+   font-family: 'Quicksand';
+   src: url('Quicksand-Regular.ttf');
+ }
+
+
+body
+{
+    background: url('asset/studentgallery.jpg') no-repeat center center fixed;
+    background-size: 1550px 800px;
+    font-family: 'Quicksand';
+    color: #fffed1;
+ }
+
+.container-lg
+{	
+	position: relative;
+    background-color: rgba(78, 49, 48,0.80);
+}
+
+
+.navbar
+{   
+    overflow: auto;
+    background-color: #970642;
+}
+.navbar a
+{   
+    float: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    color: #fffed1;;
+    vertical-align: middle;
+}
+
+.icon-container{
+  float: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-item a:hover {
+  background-color: #87033a;
+}
+
+.dropbtn{
+    color:#87033a;
+}
+
+footer
+{
+    font-size: 50%;
+    color: #fa624d;
+    text-align: center;
+}
+
+.dropdown-content {
+  background-color: #970642;
+}
